@@ -25,9 +25,8 @@ input::-webkit-inner-spin-button {
   margin: 0;
 }
 
-#labl {
+#button {
   font-size: 20px;
-  background-color: rgb(227, 227, 227);
   border-radius: 3px;
   border: 1px solid black;
   padding: 4px 15px 4px;

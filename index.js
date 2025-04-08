@@ -1,8 +1,8 @@
 const input = document.getElementById("num");
-const label = document.getElementById("labl");
+const label = document.getElementById("button");
 const h3 = document.querySelector("h3");
 
-label.addEventListener("click", () => {
+label.addEventListener("click", (e) => {
   const validSsn = (value) =>
     /^(?!(000|666|^9))\d{3}(-(?!(00))\d{2}-(?!(0000))\d{4})/.test(value)
       ? true
@@ -12,10 +12,9 @@ label.addEventListener("click", () => {
 
   if (output) {
     h3.innerText = `Entered SSN (${input.value}) is valid`;
-    input.value = "";
   } else {
     h3.innerText = `SSN must be 11 character (9 numbers and two hypens)`;
-    input.value = "";
   }
+  input.value = "";
+  e.preventDefault();
 });
-
