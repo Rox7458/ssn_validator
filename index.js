@@ -4,8 +4,7 @@ const h3 = document.querySelector("h3");
 
 label.addEventListener("click", () => {
   const validSsn = (value) =>
-    value &&
-    /^(?!(000|666|9))(\d{3}-?(?!(00))\d{2}-?(?!(0000))\d{4})$/.test(value)
+    /^(?!(000|666|^9))(\d{3}-(?!(00))\d{2}-(?!(0000))\d{4})/.test(value)
       ? true
       : false;
 
