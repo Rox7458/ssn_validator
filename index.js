@@ -1,8 +1,8 @@
 const input = document.getElementById("num");
-const label = document.getElementById("button");
+const button = document.getElementById("button");
 const h3 = document.querySelector("h3");
 
-label.addEventListener("click", (e) => {
+button.addEventListener("click", (e) => {
   const validSsn = (value) =>
     /^(?!(000|666|^9))\d{3}(-(?!(00))\d{2}-(?!(0000))\d{4})/.test(value)
       ? true
