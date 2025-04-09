@@ -12,4 +12,5 @@ The project showcases:
 
 ## Preview
 the preview of the project in action:
+
 ![ScreenRecording2025-04-09132540-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/cd4e5da8-0565-4004-98c6-46ab0bd5b5d9)
