@@ -5,6 +5,7 @@ the project has been created to veriyf whether the given ssn number is available
 ## Project Overview
 The project showcases:
 - basic html and css structure
+- regex for filtering the given input.
 
 ## File Structure
 ├── index.html          # Main HTML file
