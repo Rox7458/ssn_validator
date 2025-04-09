@@ -3,7 +3,7 @@
 the project has been created to veriyf whether the given ssn number is available or not.
 
 ## Project Overview
-Theproject showcases:
+The project showcases:
 
 ## File Structure
 ├── index.html          # Main HTML file
